@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/web/register.jsp</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/dao/DatabaseConnection.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/dao/BillDAO.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/web/index.jsp</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/servletClass/InventoryAddServlet.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/web/createBill.jsp</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/servletClass/login.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/model/BillItem.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/model/Customer.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/servletClass/register.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/dao/MedicineDAO.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/model/Bill.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/servletClass/SearchMedicineServlet.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/web/dashboard.jsp</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/web/searchMedicine.jsp</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/model/User.java</file>
+            <file>file:/C:/Users/Akshay%20Gupta/OneDrive/Documents/NetBeansProjects/Pharmacy%20Billing%20System/src/java/dao/UserDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
