@@ -1,56 +1,53 @@
-💊 Pharmacy Billing System
-A simple web-based Pharmacy Billing System developed using Java, JSP/Servlets, and MySQL. This system allows pharmacists to manage medicine inventory, track stock levels, and handle basic billing functionalities efficiently.
+# 💊 Pharmacy Billing System
 
-🚀 Features
-🔍 View All Medicines: Display all available medicines with price and stock levels.
+A simple Java-based web application designed to help pharmacies manage medicine inventory efficiently. The system provides features like stock reporting, low-stock alerts, and medicine management (add, view, delete). Built using **JSP**, **Servlets**, and **MySQL**.
 
-📉 Low Stock Alert: Medicines with stock less than 10 are highlighted in red.
+## 🚀 Features
 
-➕ Add New Medicines: Easily add new medicine entries to the database.
+- 📦 View all medicines in stock
+- ⚠️ Highlight medicines with low stock (less than 10 units) in red
+- ➕ Add new medicines to the database
+- 🗑️ Delete medicines directly from the stock report
+- 🔍 Search medicine by name or ID
+- ✏️ Update stock quantity (via backend or additional UI logic)
 
-🔁 Update Stock: Modify stock quantities directly through the system.
+## 🛠️ Tech Stack
 
-❌ Delete Medicines: Delete individual medicine records with one click.
+- **Frontend:** JSP, HTML, CSS
+- **Backend:** Java Servlets
+- **Database:** MySQL
+- **Build Tool:** Apache Tomcat (for deployment)
 
-📊 Stock Report: Get a quick overview of current stock levels and low stock alerts.
+## 📁 Project Structure
 
-🛠️ Technologies Used
-Java (JSP & Servlets)
-
-JDBC (Java Database Connectivity)
-
-MySQL (Relational Database)
-
-HTML & CSS (Frontend)
-
-Apache Tomcat (Web Server)
-
-📁 Project Structure
-pgsql
-Copy
-Edit
-├── dao/
-│   └── MedicineDAO.java
-├── model/
-│   └── Medicine.java
-├── servletClass/
-│   └── StockReportServlet.java
+PharmacyBillingSystem/
+├── src/
+│ ├── dao/
+│ │ ├── MedicineDAO.java
+│ │ └── DatabaseConnection.java
+│ ├── model/
+│ │ └── Medicine.java
+│ └── servletClass/
+│ └── StockReportServlet.java
 ├── web/
-│   └── stockReport.jsp
-├── database/
-│   └── schema.sql
-⚙️ Setup Instructions
-Clone the repository:
+│ ├── stockReport.jsp
+│ └── other JSP files...
+├── WEB-INF/
+│ └── web.xml
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/pharmacy-billing-system.git
-Import the project into your IDE (Eclipse/NetBeans/IntelliJ).
 
-Set up the MySQL database using the provided schema and update your database credentials in DatabaseConnection.java.
+## 🧪 How It Works
 
-Deploy on Apache Tomcat and run the application.
+1. The `StockReportServlet` retrieves data from the `medicine` table and forwards it to `stockReport.jsp`.
+2. The `stockReport.jsp` dynamically renders all medicines in a styled table.
+3. Medicines with stock less than 10 are highlighted in **red**.
+4. A **Delete** button next to each record allows deletion of that entry from the database.
 
-📌 Note
-This project is ideal for beginners learning JSP/Servlets, database integration with JDBC, and CRUD operations in Java web development.
+## 💻 Setup Instructions
+
+### Prerequisites
+
+- JDK 8+
+- Apache Tomcat 9+
+- MySQL
+- Maven
